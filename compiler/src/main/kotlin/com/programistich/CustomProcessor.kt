@@ -22,7 +22,6 @@ class CustomProcessor : AbstractProcessor() {
         val annotations: MutableSet<String> = LinkedHashSet()
         annotations.add(Navigation::class.java.canonicalName)
         annotations.add(Component::class.java.canonicalName)
-        annotations.add(Positive::class.java.canonicalName)
         return annotations
     }
 
